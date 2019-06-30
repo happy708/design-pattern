@@ -11,7 +11,6 @@
     <modules>
         <module>singletonpattern</module>
         <module>decoratorpattern</module>
-        <module>factorypattern</module>
     </modules>
 
 
