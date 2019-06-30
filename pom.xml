@@ -12,7 +12,6 @@
         <module>singletonpattern</module>
         <module>decoratorpattern</module>
         <module>factorypattern</module>
-        <module>strategypattern</module>
     </modules>
 
 
