@@ -13,6 +13,7 @@
         <module>decoratorpattern</module>
         <module>factorypattern</module>
         <module>strategypattern</module>
+        <module>builderpattern</module>
     </modules>
 
 
