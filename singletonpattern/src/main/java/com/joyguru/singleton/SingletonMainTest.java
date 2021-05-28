@@ -13,6 +13,10 @@ public class SingletonMainTest
         thread2.start();
         thread3.start();
 
+        thread1.join();
+        thread2.join();
+        thread3.join();
+
     }
 
     private static class ThreadWrapper implements Runnable
@@ -26,9 +30,9 @@ public class SingletonMainTest
 
         public void run()
         {
-            //System.out.println(threadName + " gets " + SingletonLazy.getInstance());
+            System.out.println(threadName + " gets " + SingletonLazy.getInstance());
             //System.out.println(threadName + " gets " + SingletonEager.getInstance());
-            System.out.println(threadName + " gets " + SingletonInnerClassLazy.getInstance());
+            // System.out.println(threadName + " gets " + SingletonInnerClassLazy.getInstance());
             //System.out.println(threadName + " gets " + SingletonEnum.getInstance());
         }
     }
