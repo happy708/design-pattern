@@ -1,4 +1,4 @@
-# design-pattern
+# Design Patterns in Java
 
 1. Singleton
 2. Decorator
